@@ -5,7 +5,6 @@ namespace Capevace\OptimisticUI;
 use Illuminate\Support\Facades\Blade;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Capevace\OptimisticUI\Commands\LivewireOptimismCommand;
 
 class LivewireOptimismServiceProvider extends PackageServiceProvider
 {

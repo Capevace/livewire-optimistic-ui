@@ -281,6 +281,20 @@ public function addTask(string $id, string $text): void
     $task->id = $id;
     $task->save();
 }
+
+#[Optimistic(crud: 'delete', model: Task::class)]
+public function deleteTask(string $id): void
+{
+    Task::find($id)?->delete();
+}
+
+#[Optimistic(crud: 'update', model: Task::class)]
+public function editTask(string $id, string $text): void
+{
+    Task::find($id)?->update([
+        'text' => $text,
+    ]);
+}
 ```
 
 ## Testing

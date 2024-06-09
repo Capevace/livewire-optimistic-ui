@@ -4,7 +4,8 @@
     "keywords": [
         "Lukas Mateffy",
         "laravel",
-        "livewire-optimistic-ui"
+        "livewire",
+        "optimistic-ui"
     ],
     "homepage": "https://github.com/capevace/livewire-optimistic-ui",
     "license": "MIT",
@@ -34,8 +35,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Capevace\\OptimisticUI\\": "src/",
-            "Capevace\\OptimisticUI\\Database\\Factories\\": "database/factories/"
+            "Capevace\\OptimisticUI\\": "src/"
         }
     },
     "autoload-dev": {
