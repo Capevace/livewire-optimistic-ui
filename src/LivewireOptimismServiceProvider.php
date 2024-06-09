@@ -18,7 +18,7 @@ class LivewireOptimismServiceProvider extends PackageServiceProvider
         $package
             ->name('livewire-optimistic-ui')
             ->hasConfigFile()
-            ->hasViews('');
+            ->hasViews('optimistic');
     }
 
 }
