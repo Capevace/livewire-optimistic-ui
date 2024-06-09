@@ -8,7 +8,7 @@ You can install the package via composer:
 composer require capevace/livewire-optimistic-ui
 ```
 
-## Usage
+## Example
 
 ```html
 # In your Livewire component's .blade.php file
@@ -137,7 +137,10 @@ class OptimisticPage extends Component
 }
 ```
 
-## Adding optimistic UI to your Livewire component
+---
+
+## Usage
+### Adding optimistic UI to your Livewire component
 
 You need to wrap your UI with the `x-optimistic::injector` component. This component will handle the optimistic UI for you.
 
