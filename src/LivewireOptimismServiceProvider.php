@@ -1,12 +1,13 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Capevace\OptimisticUI;
 
+use Illuminate\Support\Facades\Blade;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use Capevace\OptimisticUI\Commands\LivewireOptimismCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class LivewireOptimismServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +17,9 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('livewire-optimistic-ui')
             ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_skeleton_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasViews('');
     }
+
 }
