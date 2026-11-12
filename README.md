@@ -1,5 +1,16 @@
 # Livewire Optimistic UI – A utility package for better Optimistic UI support in Laravel Livewire.
 
+> [!CAUTION]
+> **This package is deprecated. Use [Optiwire (`mateffy/optiwire`)](https://github.com/mateffy/optiwire) instead.**
+>
+> Optiwire is its successor, rewritten from scratch to integrate directly into Livewire 4 instead of sitting on top of it:
+> - No injector component, wrapper or trait. You mark actions with `#[Optimistic]`, `#[Optimistic\Create]`, `#[Optimistic\Update]` or `#[Optimistic\Delete]`.
+> - It works with Blade `@foreach` lists as well as Alpine `x-for`, including sorted inserts and kanban-style moves.
+> - It adds undo, retry, idempotent requests, timeouts, cross-component updates and upload previews.
+> - Rollback is automatic on network errors, validation errors and server rejections.
+>
+> This repository is no longer maintained.
+
 
 
 https://github.com/Capevace/livewire-optimistic-ui/assets/10093858/b5fd8cea-a9eb-4fc6-88af-b6809376a774
